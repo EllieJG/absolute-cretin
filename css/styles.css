@@ -1,11 +1,172 @@
 body {
-  background-color: #ABA2AF;
-}
+  margin: 0;
+  text-align:center;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #FFFFFF;
+  font-size: 1em;
+  }
 
 h1 {
+  color: #BFB6BF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+
+  }
+
+h2 {
+  font-size: 2rem;
+  color: #A163A1;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h3 {
+  color: #F4C534;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+a {
+  color: #F4C534;
+  margin: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+a:hover {
+  color: #FFD93B;
+}
+
+hr {
+  border: dotted #FFD93B 6px;
+  border-bottom: none;
+  margin: 70px auto 100px;
+  width: 5%;
+
+
+}
+
+p {
+  line-height: 2;
+}
+
+/***************************CLASS STYLES*************************************/
+
+.top-container {
+  background-color: #853F71;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+background-color: #A163A1;
+padding: 50px 0 20px;
+margin-top: 0;
+}
+
+.planet {
+  position: absolute;
+  right: 300px;
+  top: 40px;
   width: 10%;
 }
 
-table {
+.rocket {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  width: 10%;
+}
+
+.moon-image {
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.my-photo {
+  border-radius: 50%;
+  }
+
+  .magnifying-glass {
+    width: 25%;
+    float:left;
+    margin-right: 35px;
+  }
+
+  .palette {
+    width: 25%;
+    float: right;
+    margin-left: 35px;
+  }
+
+.alien {
+  width: 25%;
+  float: left;
+  margin-right: 35px;
+}
+
+
+.pro {
+  color: #BFB6BF;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.contact-me {
   width: 40%;
+  margin: 40px auto 60px;
+  text-align: center;
+  line-height: 2;
+}
+
+.contact-message {
+  margin: 50px;
+}
+
+.myButton {
+	background-color:#853f71;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:20px 57px;
+	text-decoration:none;
+  font-family: 'Raleway', sans-serif;
+
+}
+.myButton:hover {
+	background-color:#a163a1;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding: 5px 0;
+
 }
